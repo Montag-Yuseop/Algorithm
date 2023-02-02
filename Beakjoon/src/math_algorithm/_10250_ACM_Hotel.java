@@ -46,7 +46,6 @@ public class _10250_ACM_Hotel {
 			System.out.println();
 
 		}
-
 	}
 
 }

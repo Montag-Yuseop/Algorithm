@@ -20,7 +20,7 @@ public class _2839_sugardelivery {
 			System.out.println((N/5)+2);
 		}
 		
-		
+		sc.close();
 	}
 }
 //실패 8, 11 ,13, 16, 19 등 을 포함 못함		
