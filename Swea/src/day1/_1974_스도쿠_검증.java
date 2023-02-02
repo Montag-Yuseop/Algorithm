@@ -19,51 +19,15 @@ public class _1974_스도쿠_검증 {
 					arr1[r][c] = sc.nextInt();
 				}
 			}
-			// 행 탐색
+			
+			int[] arr2 = new int[9];
+			
+			// 행 검사
 			for(int r=0; r<arr1.length; r++) {
 				for(int c=0; c<arr1.length; c++) {
-					for(int i=c+1; i<arr1.length; i++) {
-						if(arr1[r][c] == arr1[r][i]) {
-							ans += 1;
-						} else {
-							ans += 0;
-						}
-					}
 				}
 			}
 			
-			// 열 탐색
-			for(int c=0; c<arr1.length; c++) {
-				for(int r=0; r<arr1.length; r++) {
-					for(int i=r+1; i<arr1.length; i++) {
-						if(arr1[r][c] == arr1[i][c]) {
-							ans += 1;
-						} else {
-							ans += 0;
-						}
-					}
-				}
-			}
-			
-			// 3*3탐색
-			for(int i=0; i<3; i++) {
-				for(int r=i*3; r<r+3; r++) {
-					for(int c=r*3; c<c+3; c++) {
-						
-					}
-				}
-			}
-			
-			
-			
-			if(ans == 0) {
-				ans = 1;
-			} else {
-				ans = 0;
-			}
-			System.out.println(ans);
 		}
-		
-		
 	}
 }
