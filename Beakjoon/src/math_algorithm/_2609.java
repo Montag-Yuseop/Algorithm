@@ -12,7 +12,28 @@ public class _2609 {
 		
 		sc.close();
 		
+		int big = Math.max(a, b);
+		int small = Math.min(a, b);
+		int x = 0;
+		int y = 0;
+		int res1 = big%small;
+		int res2 = small%res1;
 		
+		while(true) {
+
+			big = Math.max(res1, res2);
+			small = Math.min(res1, res2);
+			
+			if(res1 == 0 || res2 == 0) {
+				x = Math.max(res1, res2);
+				break;
+			}
+		}
+				
+		y = x * (a/x) * (b/x);
+		System.out.println(x);
+		System.out.println(y);
 		
+
 	}
 }
