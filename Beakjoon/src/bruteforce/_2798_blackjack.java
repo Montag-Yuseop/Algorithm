@@ -1,9 +1,6 @@
 package bruteforce;
 
-import java.util.Arrays;
 import java.util.Scanner;
-
-import javax.swing.plaf.synth.SynthSeparatorUI;
 
 public class _2798_blackjack {
 	
@@ -18,7 +15,7 @@ public class _2798_blackjack {
 			arr[i] = sc.nextInt();
 		}
 		int max = 0;
-
+		sc.close();
 		for(int i=0; i<N-2; i++) {
 			for(int j=i+1; j<N-1; j++) {
 				for(int k=j+1; k<N; k++) {
@@ -34,7 +31,9 @@ public class _2798_blackjack {
 			
 			
 		}
+		
 		System.out.println(max);
+		
 	}
 	
 }
