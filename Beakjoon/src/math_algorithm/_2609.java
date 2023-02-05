@@ -12,7 +12,6 @@ public class _2609 {
 		
 		sc.close();
 		
-<<<<<<< HEAD
 		int big = Math.max(a, b);
 		int small = Math.min(a, b);
 		int x = 0;
@@ -35,8 +34,5 @@ public class _2609 {
 		System.out.println(x);
 		System.out.println(y);
 		
-=======
->>>>>>> 5ca8547f3a0fe89410ed5566d3143585f686098b
-
 	}
 }
