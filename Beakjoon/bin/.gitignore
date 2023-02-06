@@ -1,19 +1,12 @@
-/math_algorithm/
-<<<<<<< HEAD
-=======
-/implementation/
 /bruteforce/
-/sort/
-/queue/
-/prefix_sum/
->>>>>>> 5ca8547f3a0fe89410ed5566d3143585f686098b
+/dynamicprogramming/
+/implementation/
+/math_algorithm/
 /math_algorithm2/
 /matrix/
 /matrix2/
+/prefix_sum/
+/queue/
 /recursion/
-<<<<<<< HEAD
 /sort/
-=======
->>>>>>> 5ca8547f3a0fe89410ed5566d3143585f686098b
 /string_algorithm/
-/dynamicprogramming/
