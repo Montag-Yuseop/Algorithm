@@ -23,7 +23,7 @@ public class _1974_스도쿠_검증 {
 			// 행 검사
 			for (int r = 0; r < arr1.length; r++) {
 				for (int c = 0; c < arr1.length; c++) {
-					for (int d = 0; d < arr1.length; d++) {
+					for (int d = c; d < arr1.length; d++) {
 						if (c == d)
 							continue;
 
@@ -31,7 +31,7 @@ public class _1974_스도쿠_검증 {
 							ans = 0;
 							break;
 						}
-							
+
 					}
 
 				}
@@ -40,7 +40,7 @@ public class _1974_스도쿠_검증 {
 			// 열 검사
 			for (int c = 0; c < arr1.length; c++) {
 				for (int r = 0; r < arr1.length; r++) {
-					for (int d = 0; d < arr1.length; d++) {
+					for (int d = c; d < arr1.length; d++) {
 						if (r == d)
 							continue;
 
@@ -48,7 +48,7 @@ public class _1974_스도쿠_검증 {
 							ans = 0;
 							break;
 						}
-							
+
 					}
 
 				}
@@ -97,21 +97,19 @@ public class _1974_스도쿠_검증 {
 
 			for (int r = 1; r < 9; r += 3) {
 				for (int c = 1; c < 9; c += 3) {
-					int sum = 0; 
-					
+					int sum = 0;
+
 					for (int d = 0; d < 9; d++) {
 						int nr = r + dr[d];
 						int nc = c + dc[d];
-						
+
 						sum += arr1[nr][nc];
 					}
-					if(sum != 45) {
+					if (sum != 45) {
 						ans = 0;
 					}
-					
-				}
 
-				
+				}
 
 			}
 

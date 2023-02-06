@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item key="org.eclipse.jdt.ui.last.selected.jre.kind2" value="1"/>
 	<item key="org.eclipse.jdt.ui.last.selected.execution.enviroment" value="JavaSE-19"/>
-	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\dbtjq\Desktop\Coding\java\Java_study\Jan"/>
+	<item key="org.eclipse.jdt.ui.last.external.project" value="C:\Users\dbtjq\Desktop\Coding\java\Java_study\ssafy_study\java\java_hw_10_2"/>
 	<item key="org.eclipse.jdt.ui.last.selected.project.jre" value="jre"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item key="group_libraries" value="true"/>
@@ -37,5 +37,9 @@
 			<item key="DIALOG_Y_ORIGIN" value="-2"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item key="width" value="600"/>
+		<item key="height" value="400"/>
 	</section>
 </section>
