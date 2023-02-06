@@ -4,35 +4,34 @@ import java.util.Scanner;
 
 public class _2609 {
 	public static void main(String[] args) {
-		
+
 		Scanner sc = new Scanner(System.in);
-		
+
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		
+
 		sc.close();
-		
+
 		int big = Math.max(a, b);
 		int small = Math.min(a, b);
-		int x = 0;
-		int y = 0;
-		int res1 = big%small;
-		int res2 = small%res1;
-		
-		while(true) {
+		int res = big % small;
 
-			big = Math.max(res1, res2);
-			small = Math.min(res1, res2);
-			
-			if(res1 == 0 || res2 == 0) {
-				x = Math.max(res1, res2);
-				break;
+		if (res == 0) {
+			big = small;
+		} else {
+			while (res != 0) {
+
+				big = res;
+				res = small % res;
+
+				if (res == 0)
+					break;
+
 			}
 		}
-				
-		y = x * (a/x) * (b/x);
-		System.out.println(x);
-		System.out.println(y);
-		
+
+		System.out.println(big);
+		System.out.println(big * (a / big) * (b / big));
+
 	}
 }
