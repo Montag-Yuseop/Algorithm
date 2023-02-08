@@ -19,6 +19,7 @@ public class _10870_피보나치수5 {
 		int n = sc.nextInt();
 		
 		System.out.println(fivo(n));
+		sc.close();
 	}
 
 }

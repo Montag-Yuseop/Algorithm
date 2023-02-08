@@ -73,6 +73,7 @@ public class _2309_일곱난쟁이 {
 			// System.out.println(Arrays.toString(save));
 
 		}
+		sc.close();
 
 	}
 

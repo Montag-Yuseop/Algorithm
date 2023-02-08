@@ -28,6 +28,6 @@ public class _25501_재귀의귀재{
     		System.out.printf("%d %d",isPalindrome(sc.next()), cnt);
     		System.out.println();
     	}
-    	        
+    	sc.close();
     }
 }

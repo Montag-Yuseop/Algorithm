@@ -1,6 +1,5 @@
 package day2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _1860_진기의최고급붕어빵 {

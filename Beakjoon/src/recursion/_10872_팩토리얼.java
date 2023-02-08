@@ -18,6 +18,7 @@ public class _10872_팩토리얼 {
 		int N = sc.nextInt();
 		
 		System.out.println(fac(N));
+		sc.close();
 	}
 
 }

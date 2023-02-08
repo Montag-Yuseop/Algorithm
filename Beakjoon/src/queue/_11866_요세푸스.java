@@ -28,5 +28,7 @@ public class _11866_요세푸스 {
 			
 		}
 		
+		sc.close();
+		
 	}
 }
