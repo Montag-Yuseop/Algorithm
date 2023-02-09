@@ -1,5 +1,6 @@
 package day2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class _1860_진기의최고급붕어빵 {
@@ -44,6 +45,10 @@ public class _1860_진기의최고급붕어빵 {
 			for (int i = 0; i < sonnom.length; i++) {
 				customer[sonnom[i]]++;
 			}
+			
+			System.out.println(Arrays.toString(fish));
+			System.out.println(Arrays.toString(sonnom));
+			System.out.println(Arrays.toString(customer));
 
 			// 손님 배열 순회하면서 값 비교, 손님이 전부 0이되면 끝 가능출력
 			// 손님이 0이 되기 전에 fish배열과 비교해서 모자라면 break후 불가능출력
