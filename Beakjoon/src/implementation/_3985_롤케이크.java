@@ -3,7 +3,6 @@ package implementation;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class _3985_롤케이크 {
@@ -45,7 +44,8 @@ public class _3985_롤케이크 {
 			}
 
 		}
-
+		
+		br.close();
 		// 롤케익 입력 끝났으니까 이젠 안에 숫자 읽어오기
 
 		for (int i = 0; i < roll.length; i++) {
