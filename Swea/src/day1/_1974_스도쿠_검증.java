@@ -1,6 +1,5 @@
 package day1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _1974_스도쿠_검증 {
@@ -112,6 +111,7 @@ public class _1974_스도쿠_검증 {
 				}
 
 			}
+			sc.close();
 
 			System.out.printf("#%d %d\n", tc, ans);
 		}
