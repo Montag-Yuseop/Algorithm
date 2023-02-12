@@ -1,6 +1,5 @@
 package implementation;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _1592_영식이와친구들 {

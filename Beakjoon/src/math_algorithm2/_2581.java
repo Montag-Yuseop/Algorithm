@@ -1,6 +1,5 @@
 package math_algorithm2;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _2581 {
@@ -41,6 +40,7 @@ public class _2581 {
 			System.out.println(sum);
 			System.out.println(min);
 		}
+		sc.close();
 
 	}
 }

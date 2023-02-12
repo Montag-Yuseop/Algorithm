@@ -19,5 +19,7 @@ public class _5543_상근날드 {
 			
 		System.out.println(burger+drink-50);
 		
+		sc.close();
+		
 	}
 }

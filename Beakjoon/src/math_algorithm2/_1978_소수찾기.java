@@ -32,6 +32,7 @@ public class _1978_소수찾기 {
 			
 		}
 		System.out.println(so);
+		sc.close();
 
 	}
 }

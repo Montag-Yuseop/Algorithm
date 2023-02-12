@@ -15,5 +15,7 @@ public class _15680_연세대학교 {
 			System.out.println("Leading the Way to the Future");
 		}
 		
+		sc.close();
+		
 	}
 }

@@ -17,5 +17,7 @@ public class _3053_택시기하학 {
 		
 		System.out.printf("%f %f", circle, taxi);
 		
+		sc.close();
+		
 	}
 }
