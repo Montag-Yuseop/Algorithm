@@ -45,6 +45,7 @@ public class _3307_최장증가부분수열2 {
 			
 			System.out.printf("#%d %d\n",tc ,cnt+1);
 		}
+		sc.close();
 
 	}
 }

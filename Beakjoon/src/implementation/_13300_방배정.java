@@ -36,7 +36,7 @@ public class _13300_방배정 {
 		}
 
 		System.out.println(room);
-
+		sc.close();
 	}
 
 }

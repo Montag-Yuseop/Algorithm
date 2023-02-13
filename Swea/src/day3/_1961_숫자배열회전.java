@@ -72,7 +72,6 @@ public class _1961_숫자배열회전 {
 				// 줄 바꿈
 				System.out.println();
 				
-				
 			}
 
 		}

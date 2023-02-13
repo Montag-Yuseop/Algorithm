@@ -40,6 +40,7 @@ public class _14696_딱지놀이 {
 			}
 
 		}
+		sc.close();
 	}
 
 }

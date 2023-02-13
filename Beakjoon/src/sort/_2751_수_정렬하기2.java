@@ -14,7 +14,6 @@ public class _2751_수_정렬하기2 {
 		
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-		StringBuilder sb = new StringBuilder();
 		
 		int a = Integer.parseInt(bf.readLine());
 		List<Integer> arr = new ArrayList<>();

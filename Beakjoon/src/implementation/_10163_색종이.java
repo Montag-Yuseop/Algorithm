@@ -40,6 +40,7 @@ public class _10163_색종이 {
 			System.out.println(cnt);
 
 		}
+		sc.close();
 
 	}
 

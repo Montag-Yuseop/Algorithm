@@ -1,6 +1,5 @@
 package implementation;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class _2578_빙고 {
@@ -45,7 +44,6 @@ public class _2578_빙고 {
 					three++;
 				}
 			}
-			System.out.println(x + " 열 " + sum + " 몇빙고 " + three);
 
 			// 행 탐색
 
@@ -58,7 +56,6 @@ public class _2578_빙고 {
 					three++;
 				}
 			}
-			System.out.println(x + " 행 " + sum + " 몇빙고 " + three);
 			// 대각선 탐색1
 			sum = 0;
 			for (int r = 0; r < 5; r++) {
@@ -70,26 +67,28 @@ public class _2578_빙고 {
 			if (sum == 0) {
 				three++;
 			}
-			System.out.println(x + " 대각탐색1 " + sum + " 몇빙고 " + three);
+			
 			// 대각선 탐색2
 			sum = 0;
 			for (int r = 4; r >= 0; r--) {
-				for (int c = 4 - r; c <= 4 - r; c++) {
+				for (int c = 4-r; c <= 4 - r; c++) {
 					sum += arr[r][c];
 				}
 			}
+			
 			if (sum == 0) {
 				three++;
 			}
+			// 넘는 경우 있음
+			if (three >= 3) {
+				bingo = i+1;
 
-			System.out.println(x + " 대각탐색2 " + sum + " 몇빙고 " + three);
-			if (three == 3) {
-				bingo = x;
+				break;
 			}
 
 		}
 		System.out.println(bingo);
-
+		sc.close();
 	}
 
 }

@@ -32,6 +32,7 @@ public class _2669_직사각형네개의합집합면적구하기 {
 		}
 
 		System.out.println(cnt);
+		sc.close();
 	}
 
 }

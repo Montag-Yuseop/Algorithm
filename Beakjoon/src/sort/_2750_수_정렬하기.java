@@ -12,7 +12,7 @@ public class _2750_수_정렬하기 {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		
 		int T = Integer.parseInt(bf.readLine());
-		int temp = 0;
+//		int temp = 0;
 		int[] arr = new int[T];
 
 		for (int i = 0; i < T; i++) {

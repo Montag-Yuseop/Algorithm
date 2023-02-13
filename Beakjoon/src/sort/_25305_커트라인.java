@@ -20,7 +20,7 @@ public class _25305_커트라인 {
 		Arrays.sort(arr);
 		
 		System.out.println(arr[N-k]);
-		
+		sc.close();
 	}
 
 }
