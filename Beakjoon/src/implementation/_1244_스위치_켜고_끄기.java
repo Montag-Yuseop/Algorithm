@@ -43,7 +43,6 @@ public class _1244_스위치_켜고_끄기 {
 			else {
 				int start = swNum - 1;
 				int end = swNum + 1;
-				int cnt = 0;
 
 				if (sw[swNum] == 0) {
 					sw[swNum] = 1;
@@ -79,6 +78,7 @@ public class _1244_스위치_켜고_끄기 {
 				System.out.println();
 			}
 		}
+		sc.close();
 
 	}
 

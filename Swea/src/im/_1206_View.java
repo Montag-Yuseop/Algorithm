@@ -40,7 +40,7 @@ public class _1206_View {
 			System.out.printf("#%d %d\n", tc, house);
 			
 		}
-		
+		sc.close();
 	}
 	
 }

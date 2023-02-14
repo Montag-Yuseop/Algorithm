@@ -1,13 +1,6 @@
 INDEX VERSION 1.131+C:\Users\dbtjq\Desktop\Coding\java\algorithm\.metadata\.plugins\org.eclipse.jdt.core
-3976820462.index
-2557121005.index
-2855429459.index
-1537622067.index
 1865797976.index
-3366502328.index
-204182702.index
-2448999778.index
-2114423141.index
-469372242.index
 2993437424.index
-3287611525.index
+469372242.index
+2855429459.index
+2448999778.index

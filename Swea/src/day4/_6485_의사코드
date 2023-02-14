@@ -1,0 +1,24 @@
+의사코드
+
+버스정류장의 수 : 1 ~ 5000
+버스 노선의 수 : N
+i번 째 버스 노선은 Ai 이상 Bi 이하 정류장을 다니는 노선
+테스트 케이스의 수 : T
+
+for(tc from 1 to T)
+	N = 입력값 // 버스 노선 수
+	for(i from 1 to N)
+		Ai Bi 입력
+	P 입력
+	for(j from 1 to P)
+		Cj 입력
+	
+	// 5000짜리 배열 생성
+	busStop[0]은 1번 정류장 버스
+	busCnt[]배열 생성
+	
+	for(k from 0 to P)
+		busCnt[0] = busStop[k] 저장
+	
+	
+	busCnt배열 출력
