@@ -34,8 +34,9 @@ public class _2116_주사위쌓기 {
 			int bottom = i; // 바닥값
 			int top = 0; // 천장값
 			int temp = 0; // 합계 임시 저장 변수
-			int max = Integer.MIN_VALUE; // 최대값
-			for(int j = 0; j < N; j++) { // 주사위 한줄마다 확인
+		
+			for(int j = 0; j < N; j++) {// 최대값// 주사위 한줄마다 확인
+				int max = Integer.MIN_VALUE; 
 				for(int d = 0; d < 6; d++) { // 주사위 줄에서 탐색(바닥값 찾는중)
 					// 바닥값 탐색
 					if(dice[j][d] == bottom) {
@@ -50,9 +51,10 @@ public class _2116_주사위쌓기 {
 						}
 					}
 				}
+
 				// 최대값 찾기
 				for(int d = 0; d<6; d++) {
-					if(dice[j][d] != bottom && dice[j][d] != top) {
+					if((dice[j][d] != bottom) && (dice[j][d] != top)) {
 						max = Math.max(max, dice[j][d]);
 					}
 				}
