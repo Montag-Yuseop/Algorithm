@@ -12,7 +12,7 @@ public class _2527_직사각형 {
 
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		outer: for (int tc = 0; tc < 4; tc++) {
+		for (int tc = 0; tc < 4; tc++) {
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			int[][] square = new int[4][2];
 			for (int i = 0; i < 4; i++) {
@@ -20,56 +20,33 @@ public class _2527_직사각형 {
 					square[i][j] = Integer.parseInt(st.nextToken());
 				}
 			}
-
+			
+			String s = "";
+			
+			// 사각형 1
 			int x1 = square[0][0];
 			int x2 = square[1][0];
 			int y1 = square[0][1];
 			int y2 = square[1][1];
-
+			
+			// 사각형 2
 			int x3 = square[2][0];
 			int x4 = square[3][0];
 			int y3 = square[2][1];
 			int y4 = square[3][1];
 
-			// 점은?
-			if (x1 == x4) {
-				if (y2 == y3 || y4 == y1) {
-					System.out.println("c");
-					continue outer;
-				} else if (y3 < y2 || y4 > y1) {
-					System.out.println("b");
-					continue outer;
-				}
-			} else if (x2 == x3) {
-				if (y2 == y3 || y4 == y1) {
-					System.out.println("c");
-					continue outer;
-				} else if (y3 < y2 || y4 > y1) {
-					System.out.println("b");
-					continue outer;
-				}
-				
-			} else if (x4 <= x1 && x2 >= x3) {
-				if (y4 >= y1 && y3 <= y2) {
-					System.out.println("a");
-					continue outer;
-				} else if (y2 >= y3 && y1 <= y4) {
-					System.out.println("a");
-					continue outer;
-				}
-
-			} else if (x2 >= x3 && x1 <= x4) {
-				if (y4 >= y1 && y3 <= y2) {
-					System.out.println("a");
-					continue outer;
-				} else if (y2 >= y3 && y1 <= y4) {
-					System.out.println("a");
-					continue outer;
-				}
+			// 위치 비교하기
+			if(x1>x4 || x3 > x2 || y1 > y4 || y2 < y3) { // 범위 밖 구하기
+				s = "d";
+			} else if((x1 == x4 && y4 == y1) || (x1 == x4 && y2 == y3) || (x2 == x3 && y4 == y1) || (x2 == x3 && y2 == y3)) {  
+				s = "c";
+			} else if((x1 == x4 && y2 != y3) || (x2 == x3 && y2 != y3) || (y2 == y3 && x2 != x3) || (y1 == y4 && x2 != x3)) {
+				s =  "b";
 			} else {
-				System.out.println("d");
+				s = "a";
 			}
-
+			
+			System.out.println(s);
 		}
 
 	}
