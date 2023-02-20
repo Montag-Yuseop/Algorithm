@@ -58,5 +58,6 @@ public class _10845_큐 {
 			}
 		}
 		System.out.println(sb);
+		sc.close();
 	}
 }
