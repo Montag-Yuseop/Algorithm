@@ -12,6 +12,7 @@ public class _11382_꼬마정민 {
 		long c = sc.nextLong();
 		
 		System.out.println(a + b + c);
+		
 	}
 
 }
