@@ -1,20 +1,17 @@
-/data_structure/
-/stack/
-<<<<<<< HEAD
-/math_algorithm/
-=======
-/queue/
-/map/
-/dynamicprogramming/
->>>>>>> 57b2bb8cb1cb07258134fca331419c35c3aaecba
 /bruteforce/
+/data_structure/
+/dynamicprogramming/
 /greedy/
 /implementation/
+/map/
+/math_algorithm/
 /math_algorithm2/
 /matrix/
 /matrix2/
 /prefix_sum/
+/queue/
 /recursion/
 /sort/
+/stack/
 /string_algorithm/
 /twopointer/
