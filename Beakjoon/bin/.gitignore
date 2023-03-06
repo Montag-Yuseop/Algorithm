@@ -1,12 +1,3 @@
-/BFS/
-/binarySearch/
-/bruteforce/
-/data_structure/
-/dynamicprogramming/
-/graph/
-/greedy/
-/implementation/
-/map/
 /math_algorithm/
 /math_algorithm2/
 /matrix/
@@ -18,4 +9,7 @@
 /stack/
 /string_algorithm/
 /twopointer/
-/backtracking/
+/implementation/
+/greedy/
+/bruteforce/
+/binarySearch/

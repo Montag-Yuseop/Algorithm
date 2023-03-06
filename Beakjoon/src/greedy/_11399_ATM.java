@@ -33,6 +33,7 @@ public class _11399_ATM {
 		}
 		
 		System.out.println(sum);
+		sc.close();
 	}
 
 }
