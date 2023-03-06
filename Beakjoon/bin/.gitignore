@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+=======
+/BFS/
+/backtracking/
+/binarySearch/
+/bruteforce/
+/data_structure/
+/dynamicprogramming/
+/graph/
+/greedy/
+/implementation/
+/map/
+>>>>>>> c55b021d7ad30fd72fb01635b1f4cab34c27b612
 /math_algorithm/
 /math_algorithm2/
 /matrix/
@@ -9,7 +22,11 @@
 /stack/
 /string_algorithm/
 /twopointer/
+<<<<<<< HEAD
 /implementation/
 /greedy/
 /bruteforce/
 /binarySearch/
+=======
+/deque/
+>>>>>>> c55b021d7ad30fd72fb01635b1f4cab34c27b612
