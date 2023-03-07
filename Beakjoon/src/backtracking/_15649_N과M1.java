@@ -1,38 +1,26 @@
 package backtracking;
 
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
 
 public class _15649_N과M1 {
-	static int N;
-	static int M;
+	public static int N; // 1~N까지의 수
+	public static int M; // 중복 없이 M개를 고른 수열
+	public static boolean[] visit; // 
+	public static int[] arr; // 값을 저장할 배열
+	public static StringBuilder sb = new StringBuilder(); // 값 출력
 	
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
 	
-	public static void main(String[] args) {
-		
-		Scanner sc = new Scanner(System.in);
-		
-		N = sc.nextInt(); // N은 자연수 x개(1~N까지)
-		M = sc.nextInt(); // M은 번 출력할건지?
-		int cnt = 0;
-		
-		for(int i = 1; i<N+1; i++) {
-			print(i, cnt, "");
-		}
-		
+		visit = new boolean[M];
+		arr = new int[M];
 		
 	}
-
-	private static void print(int num, int cnt, String str) {
-		if(cnt == M) {
-			System.out.println(str);
-			return;
-		}
-			
-		
-		for(int i = 1; i<N+1; i++) {
-			print(i, cnt+1, str +" " + Integer.toString(i));
-		}
-		
-	}
-
 }
