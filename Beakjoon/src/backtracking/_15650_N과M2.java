@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class _15649_N과M1 {
+public class _15650_N과M2 {
 	public static int N; // 1~N까지의 수
 	public static int M; // 중복 없이 M개를 고른 수열
 	public static int[] arr;
@@ -36,15 +36,33 @@ public class _15649_N과M1 {
 
 	private static void perm(int idx) {
 		if(idx == M) {
-			for(int i = 0; i<M; i++) {
-				sb.append(result[i]+" ");
+			
+			boolean check = true;
+			
+			for(int i = 0; i < M-1; i++) {
+				for(int j = i; j < M; j++) {
+					if(result[i] > result[j]) {
+						check = false;
+						break;
+					}
+				}
 			}
-			sb.append("\n");
-			return;
+			
+			if(check) {
+				for(int i = 0; i<M; i++) {
+					sb.append(result[i]+" ");
+				}
+				sb.append("\n");
+				return;
+			} else {
+				return;
+			}
+			
 		}
 		
 		for(int i = 0; i<N; i++) {
 			if(visit[i]) continue;
+			
 			
 			result[idx] = arr[i];
 			visit[i] = true;
