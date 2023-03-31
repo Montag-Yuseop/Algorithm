@@ -45,6 +45,10 @@ public class _1260_DFS와_BFS {
 		for(int i = 1; i<N+1; i++)
 			Collections.sort(map.get(i));
 		
+		for(ArrayList<Integer> arr : map) {
+			System.out.println(arr);
+		}
+		
 		dfs(V);
 		System.out.println();
 		Arrays.fill(visited, false); // false로 초기화하는 기능
